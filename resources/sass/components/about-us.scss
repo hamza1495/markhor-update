@@ -1,0 +1,65 @@
+.about-us-container {
+    background-image: url(../images/dark-logo.svg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-color: $primary;
+    background-size: 8%;
+    border-radius: 20px;
+}
+
+.content-xxl {
+    font-size: 60px;
+}
+
+.content-xl {
+    font-size: 24px;
+}
+
+.content-lg {
+    font-size: 20px;
+}
+
+.btn-round-primary {
+    background-color: #10494b;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 24px;
+    color: white;
+
+    &:hover {
+        background-color: darken($primary, 8%);
+        color: white;
+    }
+}
+
+.markhor--about--section {
+    color: $white;
+    padding: 3rem;
+    margin: 3rem;
+}
+
+@include phone {
+    .markhor--about--section {
+        color: $white;
+        padding: 1rem;
+        margin: 1rem;
+    }
+}
+
+@include phone-sm {
+    .markhor--about--section {
+        color: $white;
+        padding: 1rem;
+        margin: 1rem;
+    }
+}
+
+@include phone-xs {
+    .markhor--about--section {
+        color: $white;
+        padding: 1rem;
+        margin: 1rem;
+    }
+}

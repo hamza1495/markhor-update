@@ -1,0 +1,44 @@
+.footer {
+    background-color: #10494B;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.mr-10 {
+    margin-right: 10%;
+}
+
+.footer-title {
+    color: $primary;
+}
+
+.footer-menu {
+    a {
+        color: #fff;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.ml-10 {
+    margin-left: 100px;
+}
+
+.subscribe-form {
+    input {
+        height: auto;
+        padding: 10px 15px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    button {
+        padding: 10px 15px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}

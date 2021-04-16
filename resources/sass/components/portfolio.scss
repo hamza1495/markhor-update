@@ -1,0 +1,74 @@
+.portfolio-carousel {
+    .item {
+        background: linear-gradient(#d3d3d3, #d3d3d3), linear-gradient(#d3d3d3, #d3d3d3);
+        background-position: bottom left, bottom center;
+        background-size: 1px 30%, 100% 1px;
+        background-repeat: no-repeat;
+        padding-right: 45px;
+        padding-left: 35px;
+        font-weight: 100;
+        font-size: 14px;
+        height: 250px;
+
+        p {
+            line-height: 1rem;
+        }
+    }
+}
+
+.transform-90 {
+    transform-origin: bottom center;
+    transform: rotate(-90deg);
+}
+
+.ml-35 {
+    margin-left: 35px;
+}
+
+.left-20 {
+    left: -20px;
+}
+
+.left-30 {
+    left: -30px;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.br-20 {
+    border-radius: 20px;
+}
+
+.markhor--portfolio--section {
+    margin: 3rem;
+    padding: 3rem;
+}
+
+@include phone {
+
+    .markhor--portfolio--section {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+}
+
+@include phone-sm {
+
+    .markhor--portfolio--section {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+}
+
+@include phone-xs {
+
+    .markhor--portfolio--section {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+}

@@ -1,0 +1,56 @@
+/*@font-face {
+    src: url("../../fonts/lato/latoLight.woff2") format('woff2');
+    font-family: Lato-Light;
+}
+
+@font-face {
+    src: url("../../../fonts/lato/latoRegular.woff2") format('woff2');
+    font-family: Lato-Regular;
+}
+
+@font-face {
+    src: url("../../fonts/lato/latoBold.woff2") format('woff2');
+    font-family: Lato-Bold;
+}*/
+
+@mixin phone-xs {
+    @media only screen and (min-width: 320px) and (max-width: 374px) {
+        @content;
+    }
+}
+
+@mixin phone-sm {
+    @media only screen and (min-width: 375px) and (max-width: 424px) {
+        @content;
+    }
+}
+
+@mixin phone {
+    @media only screen and (min-width: 425px) and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        @content;
+    }
+}
+
+@mixin tablet-lg {
+    @media only screen and (min-width: 1024px) and (max-width: 1365px) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media only screen and (min-width: 1366px) and (max-width: 1439px) {
+        @content;
+    }
+}
+
+@mixin laptop-lg {
+    @media only screen and (min-width: 1440px) and (max-width: 1919px) {
+        @content;
+    }
+}

@@ -1,0 +1,12 @@
+.markhor--companies--section {
+    padding: 3rem;
+    margin: 3rem;
+}
+
+@include phone {
+    .markhor--companies--section {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+}

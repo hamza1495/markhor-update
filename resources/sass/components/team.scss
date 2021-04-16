@@ -1,0 +1,77 @@
+.team-item {
+    margin-top: 3rem;
+
+    & + .team-item {
+        margin-top: 5rem;
+    }
+
+    &:nth-child(odd) {
+        & > div {
+            order: 2;
+        }
+
+        & > div + div {
+            order: 1;
+        }
+    }
+}
+
+.team-avatar {
+    overflow: hidden;
+    border-radius: 20px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.team-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.btn-svg-primary svg {
+    transition: all 200ms ease-in-out;
+}
+
+.btn-svg-primary:hover svg {
+    fill: $primary;
+}
+
+.markhor--team--section {
+    padding: 3rem;
+    margin: 3rem;
+}
+
+@include phone {
+    .markhor--team--section {
+        padding: 1rem;
+        margin: 1rem;
+
+        .team-item-rev {
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+@include phone-sm {
+    .markhor--team--section {
+        padding: 1rem;
+        margin: 1rem;
+
+        .team-item-rev {
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+@include phone-xs {
+    .markhor--team--section {
+        padding: 1rem;
+        margin: 1rem;
+
+        .team-item-rev {
+            flex-direction: column-reverse;
+        }
+    }
+}

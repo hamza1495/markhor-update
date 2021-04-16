@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Avenir');
+
+// Variables
+@import 'abstract/variables';
+@import 'abstract/mixins';
+
+// Layouts
+@import 'layout/sidebar';
+
+// Bootstrap
+@import "~owl.carousel";
+@import '~bootstrap/scss/bootstrap';
+
+// App components
+@import 'components/basic';
+@import 'components/main-intro';
+@import 'components/about-us';
+@import 'components/team';
+@import 'components/companies';
+@import 'components/portfolio';
+@import 'components/contact';
+@import 'components/footer';

@@ -1,0 +1,118 @@
+.markhor--contact--section {
+    margin: 3rem;
+    padding: 3rem;
+
+    .markhor--contact-heading {
+        text-align: left;
+
+        h4 {
+            font-size: $font-size-xlg + $font-size-xlg;
+            color: $primary;
+            font-weight: 700;
+        }
+
+        p {
+            font-weight: 300;
+        }
+    }
+}
+
+.contact-us-container {
+    background-image: url(../images/logo.svg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-color: #f9f9f9;
+    background-size: 8%;
+    border-radius: 10px;
+    padding: 60px;
+}
+
+.contact-form-container {
+    padding: 40px 30px 30px;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.175);
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.bg-grey {
+    background-color: #f9f8f8 !important;
+}
+
+.no-resize {
+    resize: none;
+}
+
+
+@include phone {
+    .markhor--contact--section {
+        margin: 1rem;
+        padding: 1rem;
+
+        .markhor--contact-heading {
+            text-align: center;
+
+            h4 {
+                font-size: $font-size-md;
+            }
+
+        }
+
+        .contact-us-container {
+            padding: 1rem;
+
+            .contact-form-container {
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+@include phone-sm {
+    .markhor--contact--section {
+        margin: 1rem;
+        padding: 1rem;
+
+        .markhor--contact-heading {
+            text-align: center;
+
+            h4 {
+                font-size: $font-size-md;
+            }
+
+        }
+
+        .contact-us-container {
+            padding: 1rem;
+
+            .contact-form-container {
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+@include phone-xs {
+    .markhor--contact--section {
+        margin: 1rem;
+        padding: 1rem;
+
+        .markhor--contact-heading {
+            text-align: center;
+
+            h4 {
+                font-size: $font-size-md;
+            }
+
+        }
+
+        .contact-us-container {
+            padding: 1rem;
+
+            .contact-form-container {
+                padding: 1rem;
+            }
+        }
+    }
+}
